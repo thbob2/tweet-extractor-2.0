@@ -8,6 +8,8 @@ django = "*"
 djangorestframework = "*"
 tweepy = "*"
 pymongo = "*"
+djongo = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
