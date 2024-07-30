@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'djongo',
     'rest_framework',
     'mobility_api'
 ]
@@ -78,9 +79,10 @@ WSGI_APPLICATION = 'mobility_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'mobility_db',
+        'NAME': 'mobility-db',
         'HOST': 'localhost',
         'PORT': 27017,
+        'ENFORCE_SCHEMA': False
 
     }
 }

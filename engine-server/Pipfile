@@ -7,9 +7,11 @@ name = "pypi"
 django = "*"
 djangorestframework = "*"
 tweepy = "*"
-pymongo = "*"
-djongo = "*"
+pymongo = "==3.12.3"
+djongo = "==1.3.6"
 python-dotenv = "*"
+pytz = "*"
+dnspython = "*"
 
 [dev-packages]
 
